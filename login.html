@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeekTrove</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./img/GEEKTROVE.png" type="image/png" />
+    <!--link de font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--link de font awesome-->
+
+    <!--link de bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!--link de bootstrap-->
+
+    <!--link de bootswatch-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.3.1/darkly/bootstrap.min.css"
+      integrity="sha512-TW3EkvQFl2hehLxEL4TSEmP960SIWeTAdT6MWTdhbRdRyBRmQjEiWpoDW5VpgZQRy5RJE2qhugkeISF3BtDd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--link de bootswatch-->
+
+    <!--link de google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!--link de google fonts-->
+  </head>
+  <body>
+    <!--TOP NAVBAR-->
+    <div class="top-navbar bg-primary">
+      <div class="top-icons">
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <div class="otros-links">
+        <button id="btn-login" class="btn btn-secondary">
+          <a href="login.html">Iniciar Sesion</a>
+        </button>
+        <button id="btn-signup" class="btn btn-secondary">
+          <a href="singup.html">Registrarse</a>
+        </button>
+
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    <!--TOP NAVBAR-->
+
+    <div class="home-section">
+      <!--NAVBAR-->
+      <nav class="navbar navbar-expand-lg bg-secondary" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" style="color: white"
+            ><img
+              src="./img/GEEKTROVE.png"
+              alt=""
+              width="100px"
+              style="margin-right: 20px"
+            />GeekTrove</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span><i class="fa-solid fa-bars" style="color: white"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                  style="color: white"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/figura.html" style="color: white"
+                  >Figuras</a
+                >
+              </li>
+              <li class="nav-item dropdown ">
+                <a
+                  class="nav-link dropdown-toggle "
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="color: white"
+                  
+                >
+                  Categorias
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#" style="color: white"
+                      >Figuras de accion</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#" style="color: white"
+                      >Funkos</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#" style="color: white"
+                      >Peluches</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#" style="color: white"
+                      >Articuladas</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#" style="color: white"
+                      >Legos</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#" style="color: white"
+                      >Llaveros</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/nosotros.html" style="color: white"
+                  >Acerca de nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contacto.html" style="color: white"
+                  >Contactenos</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit" id="search-btn">
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--NAVBAR-->
+
+
+ <!--login-->
+ <div class="container login ">
+    <div class="row">
+        <div class="col-md-4 bg-primary" id="sidel">
+            <h3>Bienvenido</h3>
+            <p>Crear nueva cuenta</p>
+            <div id="btn"><a href="singup.html ">Registarse</a>
+            </div>
+        </div>
+        <div class="col-md-8 bg-white" id="side2">
+            <h3 class="text-primary">Iniciar sesion</h3>
+            <div class="inp">
+                <input type="text" placeholder="Usuario" required>
+                <input type="password" placeholder="Contraseña" required>
+            </div>
+            <p class="text-black">Olvido su contraseña</p>
+            <div class="icons">
+            <i class="fa-brands fa-x-twitter text-primary"></i>
+            <i class="fa-brands fa-facebook text-primary"></i>
+            <i class="fa-brands fa-instagram text-primary"></i>
+            </div>
+            <button id="login-btn" class="btn btn-primary">
+                <a href="index.html">Iniciar Sesion</a>
+              </button>
+    </div>
+ </div>
+ <!--login-->
+
+  
+
+<!--footer-->
+<footer id="footer" style="margin-top: 50px;" class="bg-primary">
+  <div class="footer-top bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 footer-content">
+          <h3>GeekTrove</h3>
+          <p>GeekTrove es tu destino online para adquirir figuras coleccionables de alta calidad con envíos a nivel mundial. Descubre una amplia gama de piezas únicas y exclusivas que satisfarán tus pasiones coleccionistas, sin importar dónde te encuentres en el mundo.</p>
+          <strong><i class="fas fa-phone"></i> Telefono: <strong>+1 123 4567891</strong></strong>
+          <strong><i class="fa-solid fa-envelope"></i> Email: <strong>geektrove@gmail.com</strong></strong>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-content">
+          <h4>Links utiles</h4>
+          <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="">Servicios</a></li>
+          <li><a href="index.html">Politicas de privacidad</a></li>
+        </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-link">
+          <h4>Otras redes sociales</h4>
+          <p>¡Síguenos y mantente en contacto a través de nuestras redes sociales para estar al tanto de las últimas novedades y comunicarte con nosotros! ¡Te esperamos en nuestras redes sociales!</p>
+          <div class="social-links mt-3">
+            <a href="#" class="twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" class="twitter"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="twitter"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container py-4">
+    <div class="copyright">
+      &copy: copyright <strong>GeekTrove</strong>.Todos Los Derechos Reservados
+    </div>
+  </div>
+</footer>
+<!--footer-->
+<a href="#" class="arrow bg-primary"><i><img src="img/flecha.png" alt="" width="50px" ></i></a>
+
+    
+
+    
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

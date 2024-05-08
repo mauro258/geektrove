@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-navbar{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.top-icons{
+    margin-left: 45px;
+}
+.top-icons i{
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.otros-links{
+    margin-right: 33px;
+}
+.otros-links i{
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#btn-login{
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 5vh;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn-login a{
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+#btn-signup{
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 5vh;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn-signup a{
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+
+@media screen and(max-width: 500px){
+    .top-icons{
+        margin-left: 30px;
+    }
+    .top-icons i{
+        font-size: 15px;
+    }
+    .otros-links{
+        font-size: 15px;
+    }
+    #btn-login{
+        width: 60px;
+        height: 5vh;
+    }
+    #btn-signup{
+        width: 70px;
+        height: 5vh;
+    }
+}
+
+@media screen and(max-width: 350px){
+    .top-icons{
+        margin-left: 10px;
+    }
+    .top-icons i{
+        font-size: 10px;
+    }
+    .otros-links {
+        margin-right: 10px;
+    }
+    .otros-links i{
+        font-size: 15px;
+    }
+    #btn-login{
+        width: 50px;
+        height: 5vh;
+        font-size: 13px;
+    }
+    #btn-signup{
+        width: 70px;
+        height: 5vh;
+        font-size: 13px;
+
+    }
+}
+
+@media screen and(max-width: 350px){
+    .top-icons{
+        margin-left: 5px;
+    }
+    .top-icons i{
+        font-size: 10px;
+    }
+    .otros-links {
+        margin-right: 10px;
+    }
+    .otros-links i{
+        font-size: 10px;
+    }
+    #btn-login{
+        width: 40px;
+        height: 5vh;
+        font-size: 10px;
+    }
+    #btn-signup{
+        width: 50px;
+        height: 5vh;
+        font-size: 10px;
+    }
+}
+
+/* seccion home */
+.home-section{
+    width: 100%;
+    height: 93vh;
+}
+/* navbar */
+#navbar{
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#navbar .nav-link{
+    font-weight: bold;
+    margin-left: 5px;
+    transition: 0.5s ease;
+}
+
+#navbar .nav-link:hover{
+    border-radius: 5px;
+}
+
+.dropdown li a{
+    color: aliceblue;
+}
+
+#search-btn{
+    border: 1px solid;
+}
+/* navbar */
+
+/*contenido del home*/
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.home .img{
+    flex: l 1 400px;
+}
+
+.home .img img{
+    width: 100%;
+}
+
+.home .content{
+    flex: 1 1 400%;
+    margin-top: 30px;
+}
+
+.content h3{
+    margin-left: 70px;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px;
+    font-weight: bold;
+}
+
+.content  span{
+    font-size: 40px;
+    margin-left: 70px;
+
+}
+
+.content p{
+    margin-left: 70px;
+}
+
+.content #compra-ahora{
+    margin-left: 70px;
+    width: 200px;
+    height: 38px;
+    border: 2px solid;
+    font-weight: bold;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+@media screen and(max-widht:800px){
+    .content h3{
+        margin-left: 50px;
+        font-size: 40px;
+    }
+    .content p{
+        margin-left: 50px;
+    }
+    .content #compra-ahora{
+        margin-left: 50px;
+    }
+}
+
+@media screen and(max-widht:570px){
+    .content h3{
+        margin-left: 20px;
+    }
+    .content p{
+        margin-left: 20px;
+    }
+    .content #compra-ahora{
+        margin-left: 20px;
+    }
+}
+
+@media screen and(max-widht:779px){
+    .home-section{
+        height: 150vh;
+    }
+}
+
+@media screen and(max-widht:550px){
+    .home-section{
+        height: 100vh;
+    }
+}
+/*contenido del home*/
+
+/* seccion home */
+
+
+/*banner*/
+.banner{
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3),) ;
+    
+}
+.banner{
+    background-image: url(/img/Diseño\ sin\ título.png);;
+    opacity: 60%;
+}
+
+.banner .content{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.banner .content h1{
+    color: black;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+}
+
+.banner .content p{
+    color: black;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+}
+
+#bannerbtn button{
+    width: 150px;
+    height: 38px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+/*banner*/  
+
+#vermasbtn{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 30px;
+    width: 200px;
+    height: 32px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+
+/*offer*/
+#offer{
+    margin-top: 50px;
+}
+#offer i{
+    font-size: 60px;
+}
+/*offer*/
+
+/*footer*/
+#footer{
+    padding: 0 0 30px 0;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+#footer .footer-top{
+    padding: 60px 0 30px;
+}
+
+#footer .footer-top .footer-contact h3{
+    text-shadow: 1px 1px 1px black;
+
+}
+
+#footer .footer-top .footer-contact h3{
+    font-size: 22px;
+    margin: 0 0 300px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+
+#footer .footer-top .footer-contact p{
+    font-size: 14px;
+    margin: 0 ;
+    line-height: 1;
+    font-weight: 700;
+}
+
+#footer .footer-top h4{
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+}
+/*footer*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+.arrow{
+    position: fixed;
+    border-radius: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    align-items: center;
+    line-height: 50px;
+}
+
+
+
+
+/*login*/
+.login{
+    width: 50%;
+    margin: 20px;
+}
+
+#sidel{
+    height: 76vh;
+    border-radius: 5px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+
+#sidel h3{
+    color: white;
+    font-weight: bold;
+    text-shadow:1px 1px 1px black;
+    margin-top: 200px;
+    align-items: center;
+    text-align: center;
+}
+
+#sidel p{
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+#btn{
+    align-items: center;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#btn a{
+    text-decoration: none;
+    color: white;
+}
+
+#side2{
+    border-radius: 5px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    align-items: center;
+    text-align: center;
+}
+
+#side2 h3{
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+#side2 .inp{
+    margin-top: 32px;
+}
+
+#side2 .input{
+    width: 500px;
+    margin-top: 20px;
+    height: 36px;
+    align-items: center;
+}
+
+#side2 .icons{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#login{
+    margin-top: 10px;
+}
+
+#login-btn{
+    width: 200px;
+    height: 32px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#side2 .form{
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and(max-width:992px){
+    #side2 input{
+        width: 300px;
+    }
+}
+
+@media screen and(max-width:330px){
+    #side2 input{
+        width: 000px;
+    }
+}
+/*login*/
+
+
+/*banner2*/
+.banner2{
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3),) ;
+    
+}
+.banner2{
+    background-image: url(/img/BANNER.png);;
+}
+
+.banner2 .content2{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.banner2 .content2 h1{
+    color: black;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+}
+
+#bannerbtn2 button{
+    width: 150px;
+    height: 38px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+/*banner2*/  
+
+/*sobre mosotros*/
+#nosotros{
+    margin-top: 50px;
+}
+
+#nosotros h1{
+    text-align: center;
+    font-weight: bold;
+}
+/*sobre mosotros*/
+
+
+
+
+.carousel-item {
+    height: 80vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 200px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    margin-bottom: 30;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 30, 82, 0);
+    z-index: 1;
+}
+
